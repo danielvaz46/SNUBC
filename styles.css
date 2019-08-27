@@ -16,12 +16,12 @@ hr {
 
 .countdown {
   font-family: 'Lato', sans-serif;
+  font-size: 2rem;
   color: white;
   border-width: 5px;
   border-style: solid;
   border-radius: 10px;
-  padding: 2% 0;
-  background-image: linear-gradient(to bottom right, #581845, #C70039);
+  padding: 8% 0;
   text-align: center;
   vertical-align: middle;
 }
@@ -30,6 +30,9 @@ hr {
   margin-top: 3%;
   text-align: center;
   padding: 0 25%;
+}
+.inspiria{
+  padding-bottom: 1.5%;
 }
 
 .footer {
@@ -73,6 +76,7 @@ hr {
 
 .testimonials {
   text-align: center;
+  padding: 5% 15%;
   background-color: #581845;
   color: white;
 }
