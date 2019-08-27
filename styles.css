@@ -15,13 +15,15 @@ hr {
 }
 
 .countdown {
+  position: relative;
+  top:120px;
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
   color: white;
   border-width: 5px;
   border-style: solid;
   border-radius: 10px;
-  padding: 8% 0;
+  padding: 5% 0;
   text-align: center;
   vertical-align: middle;
 }
@@ -76,7 +78,7 @@ hr {
 
 .testimonials {
   text-align: center;
-  padding: 5% 15%;
+  padding: 10% 15%;
   background-color: #581845;
   color: white;
 }
