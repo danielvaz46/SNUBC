@@ -1,0 +1,114 @@
+hr {
+  width: 40%
+}
+
+.bd-example{
+  vertical-align: middle;
+}
+
+.carousel-padding {
+  padding: 7% 10%;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.countdown {
+  position: relative;
+  top:120px;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #581845;
+  padding: 5% 2%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cd-div {
+  margin-top: 3%;
+  text-align: center;
+  padding: 0 25%;
+}
+.inspiria{
+  padding-bottom: 1.5%;
+}
+
+.footer {
+  text-align: center;
+  background: #ff5733;
+}
+
+.ftext {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+}
+
+.navbar {
+  background-color: #581845;
+  padding: 5px 10%;
+}
+
+.nav-link {
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.padding {
+  padding: 5% 10%;
+}
+
+.spinner {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  -webkit-animation: rotation 20s infinite linear;
+}
+
+.socials {
+  padding: 2% 3%;
+  color: white;
+}
+
+.snubc {
+  padding-bottom: 1.25%;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 10% 15%;
+  background-color: #581845;
+  color: white;
+}
+
+.yellow-bg {
+  background-color: #ffc300;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  span {
+    display: block;
+    margin: 5% 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .cd-div{
+      padding: 0;
+    }
+    .countdown{
+
+    }
+  }
