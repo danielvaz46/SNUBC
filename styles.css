@@ -10,15 +10,19 @@ h2 {
   font-size: 2.5rem;
 }
 
+h5 {
+  padding-bottom: 5%;
+}
+
 .bd-example {
   vertical-align: middle;
 }
 
-.main-div{
+.main-div {
   color: white;
   background: linear-gradient(-45deg, #900c3f, #c70039, #ff5733, #ffc300);
-	background-size: 400% 400%;
-	animation: gradientBG 15s ease infinite;
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
 }
 
 .center-align {
@@ -41,8 +45,28 @@ h2 {
   padding: 0 25%;
 }
 
-.cspan{
+.cspan {
   display: block;
+}
+
+.carousel-left {
+  margin-left: -7%;
+}
+
+.carousel-right {
+  margin-right: -7%;
+}
+
+.carousel-ind {
+  margin-bottom: -12%;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.col {
+  text-align: center;
 }
 
 .col-md-4 {
@@ -55,7 +79,7 @@ h2 {
   margin: auto;
 }
 
-.events{
+.events {
   background-color: #c70039;
 }
 
@@ -72,12 +96,26 @@ h2 {
 .footer {
   text-align: center;
   background: #581845;
+  padding: 3% 10%;
 }
 
 .ftext {
   font-family: 'Merriweather Sans', sans-serif;
   color: white;
   font-size: 1.5rem;
+}
+
+.heading {
+  text-align: left;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+}
+
+.heading hr {
+  width: 10%;
+  border-color: white;
+  border-width: 3px 0 0;
+  padding-bottom: 2%;
 }
 
 .navbar {
@@ -106,8 +144,22 @@ h2 {
   color: white;
 }
 
+.speakers-lg {
+  background: #ffc300;
+}
+
+.speakers {
+  margin: 0;
+  padding: 0;
+}
+
 .snubc {
   padding-bottom: 1.25%;
+}
+
+.spkr {
+  border-radius: 50%;
+  margin: 5% auto;
 }
 
 .testimonials {
@@ -130,13 +182,23 @@ h2 {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .speakers-sm {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .cd-div {
     padding: 5% 10%;
   }
 
-  .countdown{
+  .countdown {
     font-size: 1.5rem;
+  }
+
+  .carousel-ind {
+    margin-bottom: -5%;
   }
 
   .inspiria {
@@ -144,11 +206,20 @@ h2 {
     margin: auto;
   }
 
-  .e-btn{
+  .e-btn {
     padding: 2%;
   }
 
   .ftext {
+    display: none;
+  }
+
+  .heading {
+    text-align: center;
+    padding-left: 5px;
+  }
+
+  .heading hr {
     display: none;
   }
 
@@ -171,16 +242,33 @@ h2 {
   h2 {
     font-size: 1.5rem;
   }
+
+  .speakers-lg {
+    display: none;
+  }
+
+  .spkr {
+    padding-top: 5%;
+    margin: 2% auto;
+    width: 70%;
+  }
+
+  .speakers-sm {
+    background-color: #ffc300;
+    padding: 2% 0;
+  }
 }
 
 @keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
 }

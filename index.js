@@ -11,3 +11,17 @@ var x = setInterval(function() {
   $('.mins').text(minutes);
   $('.secs').text(seconds);
 }, 1000);
+
+if ($(document).outerWidth() > 768) {
+  offset = $('.navbar').outerHeight() - 10;
+} else {
+  offset = $('.navbar').outerHeight();
+}
+
+$(document).find("a").click(function(e) {
+  e.preventDefault();
+  var section = $(this).attr("href");
+  $("html, body").animate({
+    scrollTop: $(section).offset().top - offset
+  });
+});
