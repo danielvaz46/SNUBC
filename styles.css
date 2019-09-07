@@ -240,9 +240,8 @@ h5 {
   .testimonials {
     padding: 0;
   }
-
-  .testimonials .heading .hr{
-    padding-top: 2%;
+  .test-h{
+    display: none;
   }
 
   h1 {
