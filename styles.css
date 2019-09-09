@@ -114,7 +114,9 @@ h5 {
 }
 
 .grid {
+  text-align: center;
   padding: 5%;
+  margin: auto;
 }
 
 .heading {
@@ -257,6 +259,10 @@ h5 {
 
   h2 {
     font-size: 1.5rem;
+  }
+
+  h3{
+    font-size: 1rem;
   }
 
   .speakers-lg {
