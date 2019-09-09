@@ -25,22 +25,22 @@
       <div class="ml-auto">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link" href=".main-div">Home</a>
+            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link scroll" href=".main-div">Home</a>
           </li>
           <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link" href=".testimonials">SNUBC</a>
+            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link scroll" href=".testimonials">SNUBC</a>
           </li>
           <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link" href=".events">Events</a>
+            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link scroll" href=".events">Events</a>
           </li>
           <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link" href=".speakers">Speakers</a>
+            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link scroll" href=".speakers">Speakers</a>
           </li>
           <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link" href=".footer">Contact Us</a>
+            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link scroll" href=".footer">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarNav" class="nav-link" href="#">About</a>
+            <a href="about.html" onclick="window.open('about.html','_self')" data-toggle="collapse" data-target="#navbarNav" class="nav-link">About</a>
           </li>
         </ul>
       </div>
@@ -78,11 +78,7 @@
     </div>
   </div>
 
-  <div class="testimonials padding">
-    <div class="heading test-h">
-      <h3>Testimonials</h3>
-      <hr align="left">
-    </div>
+  <div class="testimonials" id="testimonials">
     <div class="bd-example">
       <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -125,7 +121,7 @@
     </div>
   </div>
 
-  <div class="events padding">
+  <div class="events padding" id="events">
     <div class="heading">
       <h3>Events</h3>
       <hr align="left">
@@ -206,7 +202,7 @@
     </div>
   </div>
 
-  <div class="speakers">
+  <div class="speakers" id="speakers">
     <div class="speakers-lg padding">
       <div class="heading">
         <h3>Prominent Speakers</h3>
@@ -348,7 +344,7 @@
   </div>
 
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <i class="socials fab fa-facebook-square fa-3x"></i>
     <i class="socials fab fa-facebook-messenger fa-3x"></i>
     <i class="socials fab fa-instagram fa-3x"></i>

@@ -14,21 +14,23 @@ h5 {
   padding-bottom: 5%;
 }
 
+.aboutus img {
+  width: 100%;
+}
+
+.aboutinfo {
+  color: white;
+  background-color: #c70039;
+}
+
 .bd-example {
   vertical-align: middle;
 }
 
-.Bab{
+.Bab {
   font-family: 'Merriweather Sans', sans-serif;
   color: white;
   font-size: 1rem;
-}
-
-.main-div {
-  color: white;
-  background: linear-gradient(-45deg, #900c3f, #c70039, #ff5733, #ffc300);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
 }
 
 .center-align {
@@ -111,6 +113,10 @@ h5 {
   font-size: 1.5rem;
 }
 
+.grid {
+  padding: 5%;
+}
+
 .heading {
   text-align: left;
   font-family: 'Merriweather Sans', sans-serif;
@@ -136,6 +142,10 @@ h5 {
 
 .padding {
   padding: 5% 10%;
+}
+
+.row {
+  margin: 0;
 }
 
 .spinner {
@@ -240,9 +250,6 @@ h5 {
   .testimonials {
     padding: 0;
   }
-  .test-h{
-    display: none;
-  }
 
   h1 {
     font-size: 2rem;
@@ -265,19 +272,5 @@ h5 {
   .speakers-sm {
     background-color: #ffc300;
     padding: 2% 0;
-  }
-}
-
-@keyframes gradientBG {
-  0% {
-    background-position: 0 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0 50%;
   }
 }

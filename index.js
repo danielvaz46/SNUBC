@@ -12,8 +12,7 @@ var x = setInterval(function() {
   $('.secs').text(seconds);
 }, 1000);
 
-$(document).find("a").click(function(e) {
-  e.preventDefault();
+$(document).find(".scroll").click(function(e) {
   var section = $(this).attr("href");
   offset = $('.navbar').outerHeight();
   $("html, body").animate({
