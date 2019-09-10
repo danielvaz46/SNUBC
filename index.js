@@ -19,3 +19,14 @@ $(document).find(".scroll").click(function(e) {
     scrollTop: $(section).offset().top - offset
   });
 });
+
+$(window).on("load resize", function(e) {
+  var $win = $(window);
+  if ($win.width() < 768) {
+    $('.o1').addClass('order-1');
+    $('.o2').addClass('order-2');
+  } else {
+    $('.o1').removeClass('order-1');
+    $('.o2').removeClass('order-2');
+  }
+});

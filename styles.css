@@ -23,6 +23,18 @@ h5 {
   background-color: #c70039;
 }
 
+.all-events{
+  background-color: #c70039;
+}
+
+.all-speakers{
+  background-color: #ff5733;
+}
+
+.all-speakers .modal-body{
+  padding-top: 2%;
+}
+
 .bd-example {
   vertical-align: middle;
 }
@@ -82,6 +94,11 @@ h5 {
   text-align: center;
 }
 
+.col-md-3 {
+  margin: auto;
+  text-align: center;
+}
+
 .col-md-8 {
   text-align: center;
   margin: auto;
@@ -97,6 +114,24 @@ h5 {
   background: none;
 }
 
+.erow{
+  padding: 3%;
+}
+
+.ev-img{
+  width: 225px;
+  height: 225px;
+}
+
+.ev-desc{
+  padding: 5%;
+}
+
+.ev-btn{
+  margin-top: 5%;
+  background-color: #ff5733;
+}
+
 .inspiria {
   padding-bottom: 1.5%;
 }
@@ -105,6 +140,7 @@ h5 {
   text-align: center;
   background: #581845;
   padding: 3% 10%;
+  color: white;
 }
 
 .ftext {
@@ -132,6 +168,21 @@ h5 {
   padding-bottom: 2%;
 }
 
+.jusify{
+  text-align: justify;
+  padding: 0;
+}
+
+.mod-img{
+  position: relative;
+  width: 100%;
+}
+
+.modal-body{
+  padding: 0 0 1rem 0;
+  text-align: justify;
+}
+
 .navbar {
   background-color: #581845;
   padding: 5px 10%;
@@ -157,6 +208,12 @@ h5 {
   -webkit-animation: rotation 20s infinite linear;
 }
 
+.sp-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
 .socials {
   padding: 2% 3%;
   color: white;
@@ -169,6 +226,11 @@ h5 {
 .speakers {
   margin: 0;
   padding: 0;
+}
+
+.sp-desc{
+  padding: 2%;
+  text-align: justify;
 }
 
 .snubc {
@@ -207,6 +269,17 @@ h5 {
 }
 
 @media only screen and (max-width: 768px) {
+  .all-events{
+    text-align: center;
+  }
+  .col-sm-4{
+    text-align: center;
+  }
+
+.col-sm-8{
+  padding: 5% 0 0 0;
+}
+
   .cd-div {
     padding: 5% 10%;
   }
@@ -261,7 +334,7 @@ h5 {
     font-size: 1.5rem;
   }
 
-  h3{
+  h3 {
     font-size: 1rem;
   }
 
@@ -273,6 +346,10 @@ h5 {
     padding-top: 5%;
     margin: 2% auto;
     width: 70%;
+  }
+
+  .sp-desc{
+    padding: 2% 0 0 0;
   }
 
   .speakers-sm {
