@@ -39,6 +39,10 @@ h5 {
   vertical-align: middle;
 }
 
+.btn-lg{
+  border-color: transparent;
+}
+
 .Bab {
   font-family: 'Merriweather Sans', sans-serif;
   color: white;
@@ -57,6 +61,7 @@ h5 {
   border-style: solid transparent;
   border-radius: 10px;
   text-align: center;
+  padding: 3%;
 }
 
 .cd-div {
@@ -139,7 +144,7 @@ h5 {
 .footer {
   text-align: center;
   background: #581845;
-  padding: 3% 10%;
+  padding: 3% 15%;
   color: white;
 }
 
@@ -197,6 +202,44 @@ h5 {
   padding: 5% 10%;
 }
 
+.radio-inline{
+  margin: 0 2%;
+}
+
+.radio-spacing{
+  margin: 0 1%;
+}
+
+.register-div{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.register-about{
+  background-color: #581845;
+  color: white;
+}
+
+.register-about p{
+  text-align: justify;
+}
+
+.competitor-pass{
+  background-color: #ffc300;
+  color: black;
+}
+
+.presentation-pass{
+  background-color: #c70039;
+  color: white;
+}
+
+.register-btn{
+  margin-top: 5%;
+  background-color: #ff5733;
+}
+
 .row {
   margin: 0;
 }
@@ -212,6 +255,7 @@ h5 {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  margin-bottom: 2%;
 }
 
 .socials {
@@ -355,5 +399,12 @@ h5 {
   .speakers-sm {
     background-color: #ffc300;
     padding: 2% 0;
+  }
+  .register-about p{
+    text-align: center;
+  }
+  .register-btn{
+    margin: 2% 0;
+    background-color: #ff5733;
   }
 }
