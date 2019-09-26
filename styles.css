@@ -187,7 +187,9 @@ h5 {
   padding: 0 0 1rem 0;
   text-align: justify;
 }
-
+.modal-header h5{
+  padding-bottom: 0;
+}
 .navbar {
   background-color: #581845;
   padding: 5px 10%;
