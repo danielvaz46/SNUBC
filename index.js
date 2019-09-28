@@ -22,11 +22,22 @@ $(document).find(".scroll").click(function(e) {
 
 $(window).on("load resize", function(e) {
   var $win = $(window);
-  if ($win.width() < 768) {
+  if ($win.width() < 992) {
     $('.o1').addClass('order-1');
     $('.o2').addClass('order-2');
   } else {
     $('.o1').removeClass('order-1');
     $('.o2').removeClass('order-2');
+  }
+});
+
+$("input[type=radio]").click(function() {
+  var $radioID = $("input[type='radio']:checked").attr('id');
+  if ($radioID === "radio1") {
+    $('.rb-1').removeClass('hide');
+    $('.rb-2').addClass('hide');
+  } else {
+    $('.rb-1').addClass('hide');
+    $('.rb-2').removeClass('hide');
   }
 });
