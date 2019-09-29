@@ -132,6 +132,10 @@ h5 {
   margin: auto;
 }
 
+.dropdown-item{
+  white-space: pre;
+}
+
 .events {
   background-color: #c70039;
 }

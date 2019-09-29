@@ -41,3 +41,7 @@ $("input[type=radio]").click(function() {
     $('.rb-2').removeClass('hide');
   }
 });
+
+$('.drop').hover(function(){  
+    $(this).trigger('click');
+});
